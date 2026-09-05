@@ -4,8 +4,8 @@ import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-// import Agro from "./pages/Agro";
-// import Clothes from "./pages/Clothes";
+import Agro from "./pages/Agro";
+import Clothes from "./pages/Clothes";
 import Contact from "./pages/Contact";
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            {/* <Route path="/agro" element={<Agro />} />
-            <Route path="/clothes" element={<Clothes />} /> */}
+            <Route path="/agro" element={<Agro />} />
+            <Route path="/clothes" element={<Clothes />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
