@@ -7,6 +7,8 @@ import About from "./pages/About";
 import Agro from "./pages/Agro";
 import Clothes from "./pages/Clothes";
 import Contact from "./pages/Contact";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
             <Route path="/agro" element={<Agro />} />
             <Route path="/clothes" element={<Clothes />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
           </Routes>
         </main>
 
