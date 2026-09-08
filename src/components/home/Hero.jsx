@@ -73,26 +73,26 @@ const Hero = () => {
             every step.
           </motion.p>
 
-          <motion.div
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.4 }}
-            className="flex flex-col sm:flex-row flex-wrap gap-4"
-          >
-            <Link
-              to="/agro"
-              className="bg-[#B8935A] hover:bg-[#a67f45] text-[#1F1D1B] px-6 py-3 rounded-sm text-sm font-medium tracking-wide text-center transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#B8935A]/20"
-            >
-              Explore Agro
-            </Link>
+        <motion.div
+  initial={{ opacity: 0, y: 15 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7, delay: 0.4 }}
+  className="flex flex-row flex-wrap gap-3"
+>
+  <Link
+    to="/agro"
+    className="bg-[#B8935A] hover:bg-[#a67f45] text-[#1F1D1B] px-5 py-2.5 rounded-md text-sm font-medium transition-all duration-300 hover:-translate-y-0.5"
+  >
+    Explore Agro
+  </Link>
 
-            <Link
-              to="/clothes"
-              className="border border-[#F1EBE1]/40 text-[#F1EBE1] hover:border-[#B8935A] hover:text-[#B8935A] px-6 py-3 rounded-sm text-sm font-medium tracking-wide text-center transition-all duration-300"
-            >
-              Explore Clothes
-            </Link>
-          </motion.div>
+  <Link
+    to="/clothes"
+    className="border border-[#F1EBE1]/40 text-[#F1EBE1] hover:border-[#B8935A] hover:text-[#B8935A] px-5 py-2.5 rounded-md text-sm font-medium transition-all duration-300"
+  >
+    Explore Clothes
+  </Link>
+</motion.div>
         </div>
       </div>
 
