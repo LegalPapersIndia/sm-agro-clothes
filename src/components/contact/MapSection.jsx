@@ -11,7 +11,7 @@ const MapSection = () => {
     >
       <iframe
         title="Office Location"
-        src="https://www.google.com/maps?q=Noida%20Sector%208&output=embed"
+        src="https://www.google.com/maps?q=Sr%20no%208%2FB%20behind%20Sanas%20School%20Sinhgad%20Road%20Dhayari%20Pune%20411041&output=embed"
         className="w-full h-full border-0"
         loading="lazy"
       ></iframe>

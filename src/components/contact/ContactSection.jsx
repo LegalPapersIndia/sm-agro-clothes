@@ -139,7 +139,7 @@ const ContactSection = () => {
               {
                 icon: <MapPin size={18} />,
                 label: "Office Address",
-                value: "Address to be confirmed",
+                value: "Sr no 8 /B behind sanas school sinhgad road dhayari pune -411041",
               },
               {
                 icon: <Mail size={18} />,

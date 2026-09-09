@@ -5,6 +5,7 @@ import WhyChooseUs from "../components/home/WhyChooseUs";
 import ProcessSection from "../components/home/ProcessSection";
 import FAQSection from "../components/home/FAQSection";
 import CTASection from "../components/home/CTASection";
+import DirectorMessage from "../components/home/DirectorMessage";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <WhyChooseUs />
       <ProcessSection />
       <FAQSection />
+      <DirectorMessage />
       <CTASection />
     </>
   );

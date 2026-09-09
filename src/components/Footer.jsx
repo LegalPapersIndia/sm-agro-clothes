@@ -261,7 +261,7 @@ const Footer = () => {
                 <MapPin size={16} className="text-[#B8935A] mt-0.5 shrink-0" />
                 <span className="text-sm text-[#F1EBE1]/70">
                   {/* PLACEHOLDER — confirm address with client */}
-                  Address to be confirmed
+                  Sr no 8 /B behind sanas school sinhgad road dhayari pune -411041
                 </span>
               </li>
               <li className="flex items-start gap-3">
