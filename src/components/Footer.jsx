@@ -1,12 +1,13 @@
 
+
 // import { Link } from "react-router-dom";
 // import { motion } from "framer-motion";
 // import {
 //   FaFacebookF,
 //   FaInstagram,
-//   FaLinkedinIn,
+//   // FaLinkedinIn,
 // } from "react-icons/fa";
-// import { MapPin, Mail, Phone } from "lucide-react";
+// import { MapPin, Mail, Phone, Globe } from "lucide-react";
 
 // // Same logo used in Navbar
 // import logo from "../assets/logo1.png";
@@ -21,9 +22,9 @@
 
 // // PLACEHOLDER — replace with real social links once client provides them
 // const SOCIAL_LINKS = [
-//   { icon: <FaFacebookF />, url: "https://facebook.com", label: "Facebook" },
-//   { icon: <FaInstagram />, url: "https://instagram.com", label: "Instagram" },
-//   { icon: <FaLinkedinIn />, url: "https://linkedin.com", label: "LinkedIn" },
+//   { icon: <FaFacebookF />, url: "https://www.facebook.com/profile.php?id=61594582824094", label: "Facebook" },
+//   { icon: <FaInstagram />, url: "https://www.instagram.com/santosh_marne94/", label: "Instagram" },
+//   // { icon: <FaLinkedinIn />, url: "https://linkedin.com", label: "LinkedIn" },
 // ];
 
 // const Footer = () => {
@@ -117,6 +118,28 @@
 //                   +91 93735 34976
 //                 </span>
 //               </li>
+//               <li className="flex items-start gap-3">
+//                 <Globe size={16} className="text-[#B8935A] mt-0.5 shrink-0" />
+//                 <a
+//                   href="https://smagroandclothes.com"
+//                   target="_blank"
+//                   rel="noopener noreferrer"
+//                   className="text-sm text-[#F1EBE1]/70 hover:text-[#B8935A] transition-colors duration-300"
+//                 >
+//                   smagroandclothes.com
+//                 </a>
+//               </li>
+//               <li className="flex items-start gap-3">
+//                 <Globe size={16} className="text-[#B8935A] mt-0.5 shrink-0" />
+//                 <a
+//                   href="https://smitsoftwareandsolutions.com"
+//                   target="_blank"
+//                   rel="noopener noreferrer"
+//                   className="text-sm text-[#F1EBE1]/70 hover:text-[#B8935A] transition-colors duration-300"
+//                 >
+//                   smitsoftwareandsolutions.com
+//                 </a>
+//               </li>
 //             </ul>
 //           </motion.div>
 
@@ -175,7 +198,6 @@
 
 
 
-
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import {
@@ -209,36 +231,35 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 md:gap-8">
           {/* Brand */}
-          {/* Brand */}
-<motion.div
-  initial={{ opacity: 0, y: 20 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true }}
-  transition={{ duration: 0.6 }}
-  className="sm:col-span-2 md:col-span-1"
->
-  <div className="flex items-center gap-3 mb-4">
-    <div className="bg-[#F1EBE1] rounded-lg px-3 py-1.5 shadow-md">
-      <img
-        src={logo}
-        alt="SM Agro and Clothes Industries"
-        className="h-9 w-auto object-contain"
-      />
-    </div>
-    <div className="flex flex-col leading-none">
-      <span className="text-[#F1EBE1] text-base font-serif font-semibold tracking-wide">
-        Agro &amp; Clothes
-      </span>
-      <span className="text-[#B8935A] text-[10px] tracking-[0.25em] uppercase mt-0.5">
-        Industries
-      </span>
-    </div>
-  </div>
-  <p className="text-sm text-[#F1EBE1]/60 leading-relaxed max-w-xs">
-    SM Agro and Clothes Industries OPC Pvt Ltd — bridging quality
-    agriculture and premium textile craftsmanship.
-  </p>
-</motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="sm:col-span-2 md:col-span-1"
+          >
+            <div className="flex items-center gap-3 mb-4">
+              <div className="bg-[#F1EBE1] rounded-lg px-3 py-1.5 shadow-md">
+                <img
+                  src={logo}
+                  alt="SM Agro and Clothes Industries"
+                  className="h-9 w-auto object-contain"
+                />
+              </div>
+              <div className="flex flex-col leading-none">
+                <span className="text-[#F1EBE1] text-base font-serif font-semibold tracking-wide">
+                  Agro &amp; Clothes
+                </span>
+                <span className="text-[#B8935A] text-[10px] tracking-[0.25em] uppercase mt-0.5">
+                  Industries
+                </span>
+              </div>
+            </div>
+            <p className="text-sm text-[#F1EBE1]/60 leading-relaxed max-w-xs">
+              SM Agro and Clothes Industries OPC Pvt Ltd — bridging quality
+              agriculture and premium textile craftsmanship.
+            </p>
+          </motion.div>
 
           {/* Quick Links */}
           <motion.div
@@ -278,7 +299,6 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-[#B8935A] mt-0.5 shrink-0" />
                 <span className="text-sm text-[#F1EBE1]/70">
-                  {/* PLACEHOLDER — confirm address with client */}
                   Sr no 8 /B behind sanas school sinhgad road dhayari pune -411041
                 </span>
               </li>
@@ -364,6 +384,17 @@ const Footer = () => {
               Terms of Service
             </Link>
           </div>
+          <p>
+            Develop By{" "}
+            <a
+              href="https://www.legalpapersindia.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#B8935A] transition-colors duration-300"
+            >
+              Legal Papers India
+            </a>
+          </p>
         </div>
       </div>
     </footer>
