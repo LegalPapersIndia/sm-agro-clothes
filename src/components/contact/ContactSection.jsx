@@ -8,9 +8,9 @@ const WHATSAPP_NUMBER = "919373534976";
 
 // PLACEHOLDER — replace with real social links once client provides them
 const SOCIAL_LINKS = [
-  { icon: <FaFacebookF />, url: "https://facebook.com", label: "Facebook" },
-  { icon: <FaInstagram />, url: "https://instagram.com", label: "Instagram" },
-  { icon: <FaLinkedinIn />, url: "https://linkedin.com", label: "LinkedIn" },
+  { icon: <FaFacebookF />, url: "https://www.facebook.com/profile.php?id=61594582824094", label: "Facebook" },
+  { icon: <FaInstagram />, url: "https://www.instagram.com/santosh_marne94/", label: "Instagram" },
+  // { icon: <FaLinkedinIn />, url: "https://linkedin.com", label: "LinkedIn" },
 ];
 
 const ContactSection = () => {
