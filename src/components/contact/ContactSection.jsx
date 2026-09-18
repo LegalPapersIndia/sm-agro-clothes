@@ -8,8 +8,8 @@ const WHATSAPP_NUMBER = "919373534976";
 
 // PLACEHOLDER — replace with real social links once client provides them
 const SOCIAL_LINKS = [
-  { icon: <FaFacebookF />, url: "https://www.facebook.com/profile.php?id=61594582824094", label: "Facebook" },
-  { icon: <FaInstagram />, url: "https://www.instagram.com/santosh_marne94/", label: "Instagram" },
+  { icon: <FaFacebookF />, url: "https://www.facebook.com/profile.php?id=61594627524527", label: "Facebook" },
+  { icon: <FaInstagram />, url: "https://www.instagram.com/smagroandclothes/", label: "Instagram" },
   // { icon: <FaLinkedinIn />, url: "https://linkedin.com", label: "LinkedIn" },
 ];
 
